@@ -1,0 +1,33 @@
+baseURL = "https://alfpartners.netlify.app/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Ahmed"
+author = "manuel pueyo"
+theme = "anatole"
+description = " a site to present ahmed portfolio and proffession" 
+keywords = "vide maison"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+customImage = "img/custom.jpg"
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
